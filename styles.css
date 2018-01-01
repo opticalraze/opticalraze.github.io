@@ -2,6 +2,7 @@
     height: 36px;
     background-color: #0e1717;
     margin: 0;
+    padding: 0;
 }
 .navbar a {
     text-decoration:  none;
