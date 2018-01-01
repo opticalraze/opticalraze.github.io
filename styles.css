@@ -1,0 +1,8 @@
+.navbar {
+    height: 36px;
+    background-color: #0e1717;
+}
+.navbar a {
+    text-decoration:  none;
+    color: #ffffff;
+}
