@@ -5,7 +5,7 @@ collections:
   posts:
     title: Posts
     output: true
-  tech-deals:
+  techdeals:
     title: Tech Deals
     output: true
   uploads:
