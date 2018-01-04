@@ -1,20 +1,21 @@
-# Setup
-title:        Optical Raze
-tagline:      A responsive theme for your project on GitHub Pages
-baseurl:      ""
-paginate:     1
-locale:       "en"
-
-# About/contact
+---
+title: Optical Raze
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+tagline: A responsive theme for your project on GitHub Pages
+baseurl: ''
+paginate: 1
+locale: en
 author:
-  name:       ModernFuzzBall2
-  url:        http://yourhomepage.com 
-
-# Gems
+  name: ModernFuzzBall2
+  url: http://yourhomepage.com
 gems:
-  - jekyll-paginate
-
-#Others
+- jekyll-paginate
 markdown: kramdown
-
 permalink: pretty
