@@ -1,5 +1,5 @@
 ---
-title: index
+title: Index
 layout: default
 ---
 
