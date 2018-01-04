@@ -1,6 +1,6 @@
 ---
-layout: "page"
-title: "Network"
+title: Network
+layout: page
 ---
 
 Meet the team
