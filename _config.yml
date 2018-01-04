@@ -1,26 +1,20 @@
----
-title: Optical Raze
-timezone: America/New_York
-collections:
-  posts:
-    title: Posts
-    output: true
-  techdeals:
-    title: Tech Deals
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-email: contact@opticalraze.com
-description: Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-baseurl: 
-url: 
-twitter_username: opticalraze
-github_username: opticalraze
+# Setup
+title:        Optical Raze
+tagline:      A responsive theme for your project on GitHub Pages
+baseurl:      ""
+paginate:     1
+locale:       "en"
+
+# About/contact
+author:
+  name:       ModernFuzzBall2
+  url:        http://yourhomepage.com 
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
 markdown: kramdown
-theme: 'jekyll-theme-cayman '
-plugins:
-- jekyll-feed
+
 permalink: pretty
