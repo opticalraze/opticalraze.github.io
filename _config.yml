@@ -8,6 +8,7 @@ collections:
   techdeals:
     title: Tech Deals
     output: true
+    permalink: techdeals
   uploads:
     title: Uploads
     output: true
