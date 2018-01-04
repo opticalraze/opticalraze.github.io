@@ -20,7 +20,7 @@ url:
 twitter_username: opticalraze
 github_username: opticalraze
 markdown: kramdown
-theme: minima
+theme: 'jekyll-theme-cayman '
 plugins:
 - jekyll-feed
 permalink: pretty
