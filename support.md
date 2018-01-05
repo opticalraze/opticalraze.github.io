@@ -8,6 +8,6 @@ layout: page
 
 ---
 
-### Contact
+### Email
 
 **support@opticalraze.com**
