@@ -8,13 +8,13 @@ collections:
   uploads:
     title: Uploads
     output: true
-tagline: A responsive theme for your project on GitHub Pages
-baseurl: ''
+tagline: Check Out "The Screw Ops"
+baseurl: 'https://opticalraze.github.io'
 paginate: 1
 locale: en
 author:
   name: ModernFuzzBall2
-  url: http://yourhomepage.com
+  url: https://modernfuzzball2.github.io
 gems:
 - jekyll-paginate
 markdown: kramdown
