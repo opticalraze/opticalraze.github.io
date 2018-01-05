@@ -8,4 +8,4 @@ layout: page
 
 ---
 
-email: support@opticalraze.com
+**email: support@opticalraze.com**
