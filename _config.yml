@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 tagline: Check Out "The Screw Ops"
-baseurl: 'https://opticalraze.github.io'
+baseurl: https://opticalraze.github.io
 paginate: 1
 locale: en
 author:
