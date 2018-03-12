@@ -1,13 +1,17 @@
----
-title: "{}"
-layout: home
----
+<!DOCTYPE html>
+<html>
+  <head>
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+  </head>
+  <body>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/network">Network</a>
+    <a href="https://optical-raze-studios.itch.io/">Studios</a>
+    <a href="https://www.reddit.com/r/opticalraze/">Forums</a>
+    <a href="/encoded">Encoded</a>
+    <a href="/german">German</a>
+    
+    <h1>Optical Raze</h1>
+  </body>
+</html>
