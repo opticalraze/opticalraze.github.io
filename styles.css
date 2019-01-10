@@ -33,6 +33,32 @@ body {
   font-size: 25px;
 }
 
+.front-page {
+  height: 95vh;
+  /*background-image: image();*/
+}
+
+.front-page h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 250px;
+  text-align: center;
+}
+
+.button a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  font-size: 32px;
+  padding: 9px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.button a:hover, a:active {
+  background-color: red;
+}
+
 .footer {
   background-color: black;
   padding: 5px;
