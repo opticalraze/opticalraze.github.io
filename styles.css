@@ -89,7 +89,7 @@ body {
 }
 
 /* Navbar */
-ul {
+.nav ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
@@ -98,11 +98,11 @@ background-color: #f1f1f1;
 font-family: 'Roboto', sans-serif;
 }
 
-li {
+.nav li {
 float: left;
 }
 
-li a {
+.nav li a {
 display: block;
 color: white;
 text-align: center;
@@ -111,7 +111,7 @@ text-decoration: none;
 color: #000;
 }
 
-li a:hover {
+.nav li a:hover {
 background-color: #555;
 color: white;
 }
