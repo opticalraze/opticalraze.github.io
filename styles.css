@@ -162,3 +162,14 @@ color: white;
 .team-card ul {
   list-style: none;
 }
+
+.shirt-card {
+  width: 500px;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.shirt-card img {
+  width: 500px;
+}
