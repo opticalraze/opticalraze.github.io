@@ -199,3 +199,7 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+.page h2 {
+  text-align: center;
+}
