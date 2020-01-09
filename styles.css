@@ -38,6 +38,16 @@ body {
   font-size: 20px;
 }
 
+.main h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.main h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+}
+
 .front-page {
   height: 95vh;
   background-image: url('bg2.jpg');
