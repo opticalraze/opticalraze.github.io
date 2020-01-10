@@ -213,3 +213,9 @@ tr:nth-child(even) {
 .page h2 {
   text-align: center;
 }
+
+.news-post {
+  border-style: solid;
+  padding-left: 35px;
+  border-width: thin;
+}
