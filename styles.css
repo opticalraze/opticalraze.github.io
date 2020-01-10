@@ -219,3 +219,7 @@ tr:nth-child(even) {
   padding-left: 35px;
   border-width: thin;
 }
+
+.TitleH1 {
+  text-align: center;
+}
