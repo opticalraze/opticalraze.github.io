@@ -104,7 +104,8 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #f1f1f1;
+/*background-color: #f1f1f1;*/
+background-color: #ffffff;
 font-family: 'Roboto', sans-serif;
 }
 
