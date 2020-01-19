@@ -241,8 +241,8 @@ tr:nth-child(even) {
   background-color: blue;
 }
 
-.rightside img {
+/*.rightside img {
   width: 400px;
   border-radius: 50%;
-}
+}*/
 /* end split screen */
