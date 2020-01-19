@@ -220,3 +220,24 @@ tr:nth-child(even) {
   padding-left: 35px;
   border-width: thin;
 }
+
+/* start split screen */
+.leftside, .rightside {
+  height: 50vh;
+  width: 100%;
+}
+
+@@media screen and (min-width:768px) {
+  .leftside, .rightside {
+    height: 100vh;
+  }
+}
+
+.leftside {
+  background-color: red;
+}
+
+.rightside {
+  background-color: blue;
+}
+/* end split screen */
