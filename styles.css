@@ -240,4 +240,9 @@ tr:nth-child(even) {
 .rightside {
   background-color: blue;
 }
+
+.rightside img {
+  width: 400px;
+  border-radius: 50%;
+}
 /* end split screen */
