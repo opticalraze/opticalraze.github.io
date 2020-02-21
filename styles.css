@@ -59,6 +59,10 @@ body {
   text-align: center;
 }
 
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .footer {
   background-color: black;
   padding: 5px;
