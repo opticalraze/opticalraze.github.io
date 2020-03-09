@@ -1,0 +1,63 @@
+.main .title h1 {
+
+}
+
+.main {
+  text-align: center;
+  background-color: #D3D3D3;
+}
+
+.main .ip {
+  background-color: black;
+  color: #D3D3D3;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  display: inline-block
+}
+
+.main .ip p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.main .ip h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.main h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.main h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.main .features li {
+  background-color: #F5F5DC;
+  width: 450px;
+  padding: 20px;
+  margin: 10px;
+  list-style-type: none;
+  display: inline-block;
+  border-style: solid;
+}
+
+.main .features h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.main .features p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
