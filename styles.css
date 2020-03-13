@@ -6,8 +6,9 @@ body {
 .nav{
   padding: 10px;
   padding-left: 20px;
-  box-shadow: 0 8px 6px -6px black;
-  box-shadow: 10px #000000;
+  /*box-shadow: 0 8px 6px -6px black;
+  box-shadow: 10px #000000;*/
+  border-bottom: 1px solid;
 }
 
 .disclaimer {
@@ -243,7 +244,8 @@ tr:nth-child(even) {
   padding-left: 35px;
   /*border-style: solid;
   border-width: thin;*/
-  box-shadow: inset 0 0 10px #000000;
+  /*box-shadow: inset 0 0 10px #000000;*/
+  border: solid 1px black;
 }
 
 /* start split screen */
