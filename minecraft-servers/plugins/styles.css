@@ -1,0 +1,106 @@
+.content .title h2 {
+  color: white;
+}
+
+.content {
+  text-align: center;
+  background-color: rgb(23, 40, 64);
+}
+
+.content .ip {
+  background-color: rgb(19,34,55);
+  color: #D3D3D3;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  display: inline-block
+}
+
+.content .ip p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.content .ip h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.content h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.content h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+
+.content .features li {
+  background-color: #F5F5DC;
+  width: 450px;
+  padding: 20px;
+  margin: 10px;
+  list-style-type: none;
+  display: inline-block;
+  border-style: solid;
+}
+
+.content .features h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.content .features p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.content .download {
+  background-color: rgb(32, 57, 91);
+  padding:20px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+.content .download a {
+  font-family: inherit;
+  /*color: rgb(29,51,83);*/
+  color: #F5F5DC;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.content .download h4 {
+  text-align: left;
+  font-size: 20px;
+}
+
+.content .download h5 {
+  font-size: 15px;
+}
+
+.content .shop {
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.content .shop a {
+  color: white;
+}
+
+.content .recources {
+  padding: 10px;
+  padding-bottom: 40px;
+  background-color: rgb(19,34,55);
+}
+
+.content .recources a {
+  color: white;
+}
