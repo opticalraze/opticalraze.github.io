@@ -7,6 +7,11 @@ body {
   padding: 10px;
   padding-left: 20px;
   box-shadow: 0 8px 6px -6px black;
+  box-shadow: 10px #000000;
+}
+
+.disclaimer {
+  padding: 20px;
 }
 
 .content {
@@ -82,6 +87,7 @@ p {
   color: white;
   font-family: 'Roboto', sans-serif;
   padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 10px;
 }
 .footer a {
@@ -233,9 +239,10 @@ tr:nth-child(even) {
 }
 
 .news-post {
-  border-style: solid;
+  padding: 10px;
   padding-left: 35px;
-  border-width: thin;
+  /*border-style: solid;
+  border-width: thin;*/
   box-shadow: inset 0 0 10px #000000;
 }
 
