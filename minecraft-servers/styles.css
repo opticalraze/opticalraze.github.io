@@ -15,8 +15,6 @@ body {
 .content {
   text-align: center;
   background-color: rgb(23, 40, 64);
-  padding-left: 0px;
-  padding-right: 0px;
 }
 
 .content .ip {
