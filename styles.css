@@ -272,3 +272,37 @@ tr:nth-child(even) {
   border-radius: 50%;
 }*/
 /* end split screen */
+
+.social-icon {
+  width: 70px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.c-facebook {
+  background-color: #3B5998;
+}
+
+.c-twitter {
+  background-color: #55ACEE;
+}
+
+.c-instagram {
+  background-color: #125688;
+}
+
+.c-snapchat {
+  background-color: #fffc00;
+}
+
+.c-youtube {
+  background-color: #bb0000;
+}
+
+.c-soundcloud {
+  background-color: #ff6600;
+}
+
+.c-reddit {
+  background-color: #ff5700
+}
