@@ -315,3 +315,7 @@ color: white;
 .social-buttons li a:hover span {
 color: #D3D3D3;
 }
+
+.shirt-card {
+  display: inline-block;
+}
