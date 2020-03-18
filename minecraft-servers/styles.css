@@ -8,6 +8,20 @@ body {
   margin: 0px;
 }
 
+.os-card {
+  width: 250px;
+  background-color: rgb(19,34,55);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.os-card span {
+  color:white;
+  font-size:48px;
+}
+
 .content .title h2 {
   color: white;
 }
