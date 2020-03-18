@@ -272,37 +272,3 @@ tr:nth-child(even) {
   border-radius: 50%;
 }*/
 /* end split screen */
-
-.social-icon {
-  width: 70px;
-  border-radius: 50%;
-  padding: 5px;
-}
-
-.social-icon.c-facebook {
-  background-color: #3B5998;
-}
-
-.social-icon.c-twitter {
-  background-color: #55ACEE;
-}
-
-.social-icon.c-instagram {
-  background-color: #125688;
-}
-
-.social-icon.c-snapchat {
-  background-color: #fffc00;
-}
-
-.social-icon.c-youtube {
-  background-color: #bb0000;
-}
-
-.social-icon.c-soundcloud {
-  background-color: #ff6600;
-}
-
-.social-icon.c-reddit {
-  background-color: #ff5700
-}
