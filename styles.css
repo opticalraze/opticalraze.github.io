@@ -273,6 +273,6 @@ tr:nth-child(even) {
 }*/
 /* end split screen */
 
-.social-buttons {
+.social-buttons ul {
   list-style: none;
 }
