@@ -272,3 +272,7 @@ tr:nth-child(even) {
   border-radius: 50%;
 }*/
 /* end split screen */
+
+.social-buttons {
+  list-style: none;
+}
