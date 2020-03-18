@@ -207,6 +207,19 @@ color: white;
   width: 500px;
 }
 
+.shirt-card a {
+  color: black;
+  padding: 20px;
+  background-color: lightblue;
+  text-decoration: none;
+}
+
+.shirt-card a:hover {
+  color: white;
+  background-color: blue;
+  text-decoration: underline;
+}
+
 .rainbow-text {
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
