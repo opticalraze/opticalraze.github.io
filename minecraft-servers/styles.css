@@ -83,7 +83,8 @@ body {
 .content .download a {
   font-family: inherit;
   /*color: rgb(29,51,83);*/
-  color: #F5F5DC;
+  /*color: #F5F5DC;*/
+  color: #D3D3D3;
   font-family: 'Ubuntu', sans-serif;
 }
 
