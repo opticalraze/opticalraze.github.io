@@ -400,6 +400,6 @@ color: #D3D3D3;
   padding: 20px;
 }
 
-.features a {
+.features li a {
   color: rgb(32, 57, 91);
 }
