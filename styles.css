@@ -399,3 +399,7 @@ color: #D3D3D3;
 .buy-button {
   padding: 20px;
 }
+
+.features a {
+  color: rgb(32, 57, 91);
+}
