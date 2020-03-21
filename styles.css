@@ -178,10 +178,14 @@ color: white;
 
 .team-card h4 {
   text-align: center;
-  color: black;
+  color: #333333;
   padding-top: 10px;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+}
+
+.team-card a:hover h4 {
+  color: #111111;
 }
 
 .team-card img {
