@@ -171,6 +171,10 @@ color: white;
   color: white;
 }
 
+.team {
+  width: auto;
+  overflow: scroll;
+}
 /* \/ Team Cards -> About page \/ */
 .team-card {
   width: 170px;
