@@ -173,6 +173,7 @@ color: white;
 
 .team {
   width: auto;
+  height: 170px; /* might want to change this eventually */
   overflow: scroll;
 }
 /* \/ Team Cards -> About page \/ */
