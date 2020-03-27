@@ -277,6 +277,8 @@ color: #111111;
 .buy-button {
   padding: 20px;
   margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
 
 
