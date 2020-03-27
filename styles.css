@@ -264,9 +264,16 @@ color: #111111;
 .shirt-card {
   width: 500px;
   text-align: center;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 20px;
+  display: inline-block;
 }
+
+.buy-button {
+  padding: 20px;
+}
+
 
 .shirt-card img {
   width: 500px;
@@ -393,15 +400,6 @@ color: white;
 
 .social-buttons li a:hover span {
 color: #D3D3D3;
-}
-
-.shirt-card {
-  display: inline-block;
-  float: left;
-}
-
-.buy-button {
-  padding: 20px;
 }
 
 .features li a {
