@@ -3,6 +3,10 @@ body {
   padding: 0px;
 }
 
+.wrapper {
+  text-align: center;
+}
+
 .nav{
   padding: 10px;
   padding-left: 20px;
