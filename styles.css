@@ -3,6 +3,16 @@ body {
   padding: 0px;
 }
 
+.video-card {
+  width: 336px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.video-card img {
+  width: 336px;
+}
+
 .wrapper {
   text-align: center;
 }
