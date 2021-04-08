@@ -4,6 +4,51 @@ body {
   background-color: black;
 }
 
+.text-center {
+  text-align:center;
+}
+
+.text-left {
+  text-align:left;
+}
+
+.text-right {
+  text-align:right;
+}
+
+
+.app-icon{
+color: white; text-decoration:none;
+}
+
+.app-icon .display {
+  margin-right: 10px; text-align: center; width: 200px; display: inline-block;
+}
+
+
+.post {
+  color: black;
+}
+
+
+.header {
+  background:white;
+  color: black;
+  text-align:center;
+}
+
+.header h1 {
+  padding-top: 33.500px;margin-bottom:0px;margin-top:0px;
+}
+
+.header h3 {
+  margin-top: 0px;
+}
+
+.header .nav {
+  border-bottom:0px;
+}
+
 .video-card {
   width: 336px;
   font-size: 20px;
@@ -33,6 +78,16 @@ body {
   padding-right: 20px;
   padding-bottom: 40px;
   padding-top: 20px;
+  color: white;
+}
+
+.content a{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content a:hover {
+  text-decoration: none;
 }
 
 .topbar {
@@ -52,7 +107,7 @@ body {
   margin: 0px;
   padding: 0px;
   min-height: 100vh;
-  background-color: white;
+  background-color:#6F2232;
   overflow: auto;
 }
 
