@@ -504,3 +504,85 @@ color: #D3D3D3;
 .features li a {
   color: rgb(32, 57, 91);
 }
+
+
+
+
+
+
+
+
+.contact-info {
+font-family:'Roboto',sans-serif;
+text-align:center;
+}
+
+.contact-info .card {
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom:20px;
+  display:inline-block;
+  vertical-align:top;
+  background-color: white;
+  color: black;
+  padding: 15px;
+}
+
+.contact-info .card table, caption, tbody, tfoot, thead, tr, th, td, tr:nth-child(even) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.contact-info .card table {
+  min-width: 100px;
+}
+
+.contact-info .card a:hover {
+  text-decoration: none;
+}
+
+.contact-info .card table a {
+  text-decoration: none;
+}
+
+.contact-info .card td {
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+.contact-info .card tr td:first-child{
+  text-align: center;
+}
+
+.contact-info .card tr td:last-child{
+  text-align: right;
+}
+
+.contact-info .card tr td:last-child a:hover {
+  text-decoration: underline;
+}
+
+.contact-info .card a {
+  color: black;
+}
+
+hr {
+  opacity: .25;
+}
+
+p.aboutus {
+  margin-left:15%;
+  margin-right:15%;
+  text-align:justify;
+  color:#DFF0D8;
+  opacity:.5;
+}
+
+h2,h3{
+  opacity:.75;
+}
