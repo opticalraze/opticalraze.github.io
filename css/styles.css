@@ -357,7 +357,7 @@ color: #111111;
 
 /* // Shirt Cards // */
 .shirt-card {
-  width: 500px;
+  max-width: 500px;
   text-align: center;
   margin-right: 10px;
   margin-left: 10px;
