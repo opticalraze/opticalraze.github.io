@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1080 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1.22473,0,0,1.22473,-155.179,-450.845)">
+        <g>
+            <path d="M961.531,583.448C961.531,573.09 953.121,564.68 942.763,564.68L192.473,564.68C182.115,564.68 173.705,573.09 173.705,583.448L173.705,1034.62C173.705,1044.97 182.115,1053.38 192.473,1053.38L942.763,1053.38C953.121,1053.38 961.531,1044.97 961.531,1034.62L961.531,583.448Z" style="fill:white;fill-opacity:0.2;"/>
+            <clipPath id="_clip1">
+                <path d="M961.531,583.448C961.531,573.09 953.121,564.68 942.763,564.68L192.473,564.68C182.115,564.68 173.705,573.09 173.705,583.448L173.705,1034.62C173.705,1044.97 182.115,1053.38 192.473,1053.38L942.763,1053.38C953.121,1053.38 961.531,1044.97 961.531,1034.62L961.531,583.448Z"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1,0,0,1,27.618,269.031)">
+                    <rect x="0" y="0" width="1080" height="1080" style="fill:url(#_Linear2);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,99.6912,62.0701)">
+                    <path d="M859.388,505.411C859.388,332.568 683.98,192.242 467.927,192.242C251.874,192.242 76.466,332.568 76.466,505.411C76.466,607.554 138.733,703.279 243.299,761.89L193.904,975.164L366.498,807.884C399.577,814.984 433.678,818.579 467.927,818.579C683.98,818.579 859.388,678.253 859.388,505.411Z" style="fill:white;fill-opacity:0.2;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1080,0,0,1080,0,540)"><stop offset="0" style="stop-color:rgb(192,72,72);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(72,2,72);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
