@@ -14,79 +14,29 @@
     <link href="css/shadow.css" rel="stylesheet">
 
     <style media="screen">
-      .contact-info {
-      font-family:'Roboto',sans-serif;
-      text-align:center;
-      }
+      /*@media (orientation: portrait) {
 
-      .contact-info .card {
-        margin-left:20px;
-        margin-right:20px;
-        margin-bottom:20px;
-        display:inline-block;
-        vertical-align:top;
-        background-color: white;
-        color: black;
-        padding: 15px;
-      }
+      }*/
 
-      .contact-info .card table, caption, tbody, tfoot, thead, tr, th, td, tr:nth-child(even) {
-          margin: 0;
-          padding: 0;
-          border: 0;
-          outline: 0;
-          font-size: 100%;
-          vertical-align: baseline;
-          background: transparent;
+      @media screen and (max-width: 550px) {
+        .aboutus {
+          margin-left:10px!important;
+          margin-right:10px!important;
+        }
       }
-
-      .contact-info .card table {
-        min-width: 100px;
+      @media screen and (max-width: 375px) {
+        .contact-info .card {
+          margin-left: 0px;
+          margin-right: 0px;
+        }
       }
-
-      .contact-info .card a:hover {
-        text-decoration: none;
-      }
-
-      .contact-info .card table a {
-        text-decoration: none;
-      }
-
-      .contact-info .card td {
-        padding-left:10px;
-        padding-right: 10px;
-      }
-
-      .contact-info .card tr td:first-child{
-        text-align: center;
-      }
-
-      .contact-info .card tr td:last-child{
-        text-align: right;
-      }
-
-      .contact-info .card tr td:last-child a:hover {
-        text-decoration: underline;
-      }
-
-      .contact-info .card a {
-        color: black;
-      }
-
-      hr {
-        opacity: .25;
-      }
-
-      p.aboutus {
-        margin-left:15%;
-        margin-right:15%;
-        text-align:justify;
-        color:#DFF0D8;
-        opacity:.5;
-      }
-
-      h2,h3{
-        opacity:.75;
+      @media screen and (max-width: 280px) {
+        .social-icon {
+          display: none;
+        }
+        .aboutus {
+          text-align:left!important;
+        }
       }
 
     </style>
@@ -178,22 +128,22 @@
               <hr>
               <table>
                 <tr>
-                  <td><a href="https://twitter.com/opticalraze" target="_blank"><i class="fab fa-twitter"></i></a></td>
+                  <td class="social-icon"><a href="https://twitter.com/opticalraze" target="_blank"><i class="fab fa-twitter"></i></a></td>
                   <td><a href="https://twitter.com/opticalraze" target="_blank">Twitter</a></td>
                   <td><a href="https://twitter.com/opticalraze" target="_blank">@opticalraze</a></td>
                 </tr>
                 <tr>
-                  <td><a href="https://www.instagram.com/opticalraze/" target="_blank"><i class="fab fa-instagram"></i></a></td>
+                  <td class="social-icon"><a href="https://www.instagram.com/opticalraze/" target="_blank"><i class="fab fa-instagram"></i></a></td>
                   <td><a href="https://www.instagram.com/opticalraze/" target="_blank">Instagram</a></td>
                   <td><a href="https://www.instagram.com/opticalraze/" target="_blank">@opticalraze</a></td>
                 </tr>
                 <tr>
-                  <td><a href="https://www.facebook.com/opticalraze/" target="_blank"><i class="fab fa-facebook-f"></i></a></td>
+                  <td class="social-icon"><a href="https://www.facebook.com/opticalraze/" target="_blank"><i class="fab fa-facebook-f"></i></a></td>
                   <td><a href="https://www.facebook.com/opticalraze/" target="_blank">Facebook</a></td>
                   <td><a href="https://www.facebook.com/opticalraze/" target="_blank">@opticalraze</a></td>
                 </tr>
                 <tr>
-                  <td><a href="https://www.youtube.com/channel/UCqVdpXrnoKCRi2UCxnK0r9g" target="_blank"><i class="fab fa-youtube"></i></a></td>
+                  <td class="social-icon"><a href="https://www.youtube.com/channel/UCqVdpXrnoKCRi2UCxnK0r9g" target="_blank"><i class="fab fa-youtube"></i></a></td>
                   <td><a href="https://www.youtube.com/channel/UCqVdpXrnoKCRi2UCxnK0r9g" target="_blank">YouTube</a></td>
                   <td><a href="https://www.youtube.com/channel/UCqVdpXrnoKCRi2UCxnK0r9g" target="_blank">Optical Raze</a></td>
                 </tr>
