@@ -20,18 +20,47 @@
     <link href="css/shadow.css" rel="stylesheet">
 
     <style media="screen">
-      .app-icon:hover {
+      /*.app-icon:hover {
         text-decoration: underline;
 
       }
-      .app-icon:hover img {
-        /*opacity: 0.75;*/
+      .app-icon:hover img {*/
+        /*opacity: 0.75;*//*
         filter: brightness(75%) drop-shadow(2px 4px 6px rgba(0,0,0,.75));
       }
 
       .app-icon img {
         filter: drop-shadow(2px 4px 6px rgba(0,0,0,.5));
+      }*/
+
+      .app-icon .display {
+        background: white;
+        padding: 20px;
+        color: black;
+        border-radius: 20px;
+        margin: 20px;
+        opacity: 1;
+        filter: drop-shadow(2px 4px 6px rgba(0,0,0,.5));
       }
+
+
+      .app-icon:hover .display {
+        opacity: .8;
+      }
+
+      .app-icon:hover img {
+        filter: brightness(.5);
+      }
+
+      @media only screen and (max-width: 280px) {
+        .app-icon .display {
+          margin: 20px;
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+
+
     </style>
 
   </head>
