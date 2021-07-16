@@ -124,6 +124,7 @@ text-decoration:none;
 }
 .topbar a:hover {
   /*color:#F2F1EF;*/
+  opacity: .5;
   text-decoration:underline;
 }
 .main {
