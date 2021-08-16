@@ -241,7 +241,9 @@ text-decoration:none;
 }
 
 .nav li a:hover {
-background-color:#555;
+/*background-color:#555;*/
+background-color: darkslategrey;
+border-radius: 5px;
 color:white;
 }
 
