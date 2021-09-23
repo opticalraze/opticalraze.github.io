@@ -60,16 +60,16 @@
     <div class="main" style="/*background:#950740;*/ background: linear-gradient(180deg, #6F2232 1000px, #950740 100vh); overflow:hidden;">
       <div class="header shadow-6">
         <h1>Optical Raze</h1>
-        <h3 class="animate__animated animate__fadeIn">we find problems and eliminate&nbsp;them</h3>
+        <h3 class="animate__animated animate__fadeIn trn" data-trn-key="slogan">we find problems and eliminate&nbsp;them</h3>
         <div class="nav">
           <ul>
-            <li><a class="active" href="/">Home</a></li>
-            <li><a href="/apps">Apps</a></li>
-            <li><a href="https://adperiod.com">Advertising</a></li>
+            <li><a href="/" class="trn active">Home</a></li>
+            <li><a href="/apps" class="trn">Apps</a></li>
+            <li><a href="https://adperiod.com" class="trn">Advertising</a></li>
             <!--<li><a href="/studios">Studios</a></li>-->
             <!--<li><a href="/about#contact">Contact</a></li>-->
             <!--<li><a href="/network">Network</a></li>-->
-            <li><a href="/about">About</a></li>
+            <li><a href="/about" class="trn">About</a></li>
           </ul>
         </div>
       </div>
@@ -77,20 +77,16 @@
       <div class="content" style="/*background-color: #6F2232;*/ background-image: linear-gradient(10deg, #950740 50%, transparent 50%), linear-gradient(-60deg, #C3073F 30%, transparent 30%); background-repeat: no-repeat; background-size: auto 1270px;">
 
         <div class="news">
-          <h2>News</h2>
+          <h2 class="trn" data-translate="news">News</h2>
 
           <center>
 
             <div class="post shadow-dreamy animate__animated animate__bounceInUp0" style="background:white;padding:20px;width:60%;text-align:left;margin-top:20px;margin-bottom:40px;">
               <p style="float:right">1/1/2021</p>
-              <h3>Happy New Year!</h3>
-              <p>
-                This time of year offers us a brand new start. We would like to take this opportunity to start fresh with you.
-              </p>
+              <h3 class="trn" data-trn-key="p1h1">Happy New Year!</h3>
+              <p class="trn" data-trn-key="p1p1">This time of year offers us a brand new start. We would like to take this opportunity to start fresh with you.</p>
               <img src="assets/pictures/fireworks.webp" alt="fireworks" width="100%">
-              <p>
-                Wishing you all love and peace in the new year.
-              </p>
+              <p class="trn" data-trn-key="p1p2">Wishing you all love and peace in the new year.</p>
             </div>
 
           </center>
@@ -99,21 +95,234 @@
       </div>
     </div>
 
-
+    <style media="screen">
+      .language-select {
+        position:absolute;bottom:20px;right:20px;
+      }
+      .language-select a {
+        padding:0;/*opacity:.5;*/opacity:.4;
+      }
+      .language-select a.active {
+        opacity:1;/*text-decoration:underline;*/
+      }
+      .language-select span {
+        padding:10px;opacity:.5;
+      }
+    </style>
 
     <!-- Footer -->
-    <div class="footer">
-      <p>© Copyright 2021, Optical Raze Inc.</p>
-      <a href="/about">about</a>
-      <a href="/about#contact">contact</a>
-      <a href="/resources">resources</a>
-      <a href="/about#social">social</a>
+    <div class="footer" style="position:relative;">
+      <p>© Copyright 2021, Optical&nbsp;Raze&nbsp;Inc.</p>
+      <a href="/about" class="trn">about</a>
+      <a href="/about#contact" class="trn">contact</a>
+      <a href="/resources" class="trn">resources</a>
+      <a href="/about#social" class="trn">social</a>
+
+      <div class="language-select">
+        <a href="" onclick="event.preventDefault();" data-id="en" class="active">English</a>
+        <span>|</span>
+        <a href="" onclick="event.preventDefault();" data-id="fr">Français</a>
+      </div>
+
+      <div style="
+          display: none;
+          position: absolute;
+          right: 20px;
+          bottom: 60px;
+          color: rgba(255,255,255,.5);
+      ">Voulez-vous que je souvien de ta préférence linguistique?<br> <br>
+          <center><a href="#" style="
+      ">Oui</a> <span style="
+          margin-right: 5px;
+      ">ou</span> <a href="#" style="
+      ">Non</a>?</center>
+
+      </div>
+      <div style="
+          display: none;
+          position: absolute;
+          right: 20px;
+          bottom: 60px;
+          color: rgba(255,255,255,.5);
+      ">Do you want me to remember you language preferance?<br> <br>
+          <center><a href="#" style="
+      ">Yes</a> <span style="
+          margin-right: 6px;
+      ">|</span> <a href="#" style="
+      ">No</a></center>
+
+      </div>
     </div>
 
     <img id="ap-pixel">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.0/dist/js.cookie.min.js" integrity="sha256-pUYbeWfQ0TisH2PabhAZLCzI8qGOJop0mEWjbJBcZLQ=" crossorigin="anonymous"></script>
     <script src="https://getmediafiles.com/downloads/period.js"></script>
+
+
+    <script src="scripts/jquery.translate.js"></script>
+
+    <script type="text/javascript">
+
+    var local = {
+        "Home": {
+          //en: "Home",
+          fr: "Accueil"
+        },
+        "Apps": {
+          //en: "Apps",
+          fr: "Applis"
+        },
+        "Advertising": {
+          //en: "Advertising",
+          fr: "Publicitaire"
+        },
+        "About": {
+          //en: "Advertising",
+          fr: "Présentation"
+        },
+        "about": {
+          //en: "Advertising",
+          fr: "présentation"
+        },
+        "contact": {
+          fr: "contactez-nous"
+        },
+        "resources": {
+          fr: "ressources"
+        },
+        "News": {
+          //en: "Advertising",
+          fr: "Actualités"
+        },
+        slogan: {
+          //en: "Advertising",
+          en: "we find problems and eliminate&nbsp;them",
+          fr: "on trouve des problèmes et on&nbsp;les&nbsp;efface"
+        },
+        p1h1: {
+          en: "Happy New Year!",
+          fr: "Bonne Année!"
+        },
+        p1p1: {
+          en: "This time of year offers us a brand new start. We would like to take this opportunity to start fresh with you.",
+          fr: "Cette période de l'année nous offre un tout nouveau départ. Nous aimerions profiter de cette occasion pour repartir à neuf avec vous."
+        },
+        p1p2: {
+          en: "Wishing you all love and peace in the new year.",
+          fr: "On vous souhaite à tous l'amour et paix pour la nouvelle année."
+        }
+
+    };
+
+    var translator = $('body').translate({
+        lang: "en",
+        t: local
+    });
+
+    var language=Cookies.get("language"); // check cookie
+    if(!language)language=window.navigator.userLanguage||window.navigator.language;language=language.substring(0,2); // get browser preference
+    if(language=='fr') {
+      translator.lang('fr');  // translate page to french
+    } else {
+      language='en'; // set default to english
+    }
+
+    $(document).ready(function() {
+
+
+
+      $('.language-select a').click(function() {
+        event.preventDefault();
+        language=$(this).data('id');
+
+        $(this).addClass('active').siblings().removeClass('active');
+        translator.lang(language);
+
+        // cookie here
+        Cookies.set('language',language,{expires:365});
+      });
+
+
+
+    });
+
+
+
+    //Cookies.set('language', 'en', { expires: 7 })
+
+
+
+
+    // FR
+    //translator.lang("fr");
+    //translator.lang("en");
+
+      /*var dictionary = {
+        "en": {
+          "home": "Home",
+          "apps": "Apps",
+          "advertising": "Advertising",
+          "about": "About",
+          "news": "News",
+          "slogan": "we find problems and eliminate&nbsp;them",
+          "post1-h":"Happy New Year!",
+          "post1-p1":"This time of year offers us a brand new start. We would like to take this opportunity to start fresh with you.",
+          "post1-p2":"Wishing you all love and peace in the new year."
+        },
+        "fr": {
+          "home": "Accueil",
+          "apps": "Applis",
+          "advertising": "Publicitaire",
+          "about": "Présentation",
+          "news": "Actualités",
+          "slogan": "on trouve des problèmes et on&nbsp;les&nbsp;efface",
+          "post1-h":"Bonne Année!",
+          "post1-p1":"Cette période de l'année nous offre un tout nouveau départ. Nous aimerions profiter de cette occasion pour repartir à neuf avec vous.",
+          "post1-p2":"On vous souhaite à tous l'amour et paix pour la nouvelle année."
+        }
+      };
+      //let   language = 'en';
+      //const translator = new EOTranslator(dictionary,language);
+
+      //const home = translator.translate("home", { lang: "fr" });
+      console.log(dictionary);*/
+    </script>
+
+    <script type="text/javascript">
+
+    /*const language = {
+      "home": "Accueil",
+      "apps": "Applis",
+      "advertising": "Publicitaire",
+      "about": "Présentation",
+      "news": "Actualités",
+      "slogan": "on trouve des problèmes et on&nbsp;les&nbsp;efface",
+      "post1-h":"Bonne Année!",
+      "post1-p1":"Cette période de l'année nous offre un tout nouveau départ. Nous aimerions profiter de cette occasion pour repartir à neuf avec vous.",
+      "post1-p2":"On vous souhaite à tous l'amour et paix pour la nouvelle année."
+    }*/
+
+    //const languageWords=JSON.parse(JSON.stringify(language));
+
+    //console.log(languageWords);
+    //languageWords.forEach(element => console.log(element));
+
+
+
+      /*let requestURL = 'language/fr.json';
+      let request = new XMLHttpRequest();
+      request.open('GET', requestURL);
+      request.responseType = 'json';
+      request.send();
+
+      request.onload = function() {
+        const languageWords = request.response;
+        console.log(languageWords);
+        //languageWords.forEach(element => console.log(element));
+
+      }*/
+    </script>
 
   </body>
 </html>
