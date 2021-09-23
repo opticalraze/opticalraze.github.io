@@ -95,23 +95,8 @@
       </div>
     </div>
 
-    <style media="screen">
-      .language-select {
-        position:absolute;bottom:20px;right:20px;
-      }
-      .language-select a {
-        padding:0;/*opacity:.5;*/opacity:.4;
-      }
-      .language-select a.active {
-        opacity:1;/*text-decoration:underline;*/
-      }
-      .language-select span {
-        padding:10px;opacity:.5;
-      }
-    </style>
-
     <!-- Footer -->
-    <div class="footer" style="position:relative;">
+    <div class="footer">
       <p>© Copyright 2021, Optical&nbsp;Raze&nbsp;Inc.</p>
       <a href="/about" class="trn">about</a>
       <a href="/about#contact" class="trn">contact</a>
@@ -224,8 +209,6 @@
     if(!language)language=window.navigator.userLanguage||window.navigator.language;language=language.substring(0,2); // get browser preference
     if(language=='fr') {
       translator.lang('fr');  // translate page to french
-      //$(".language-select a").removeClass("active");
-      //$(".language-select a[data-id=fr]").addClass("active");
       $(".language-select a").toggleClass("active");
     } else {
       language='en'; // set default to english

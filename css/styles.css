@@ -595,3 +595,26 @@ p.aboutus {
 h2,h3{
   opacity:.75;
 }
+
+
+
+
+
+
+
+
+.footer {
+  position:relative;
+}
+.footer .language-select {
+  position:absolute;bottom:20px;right:20px;
+}
+.footer .language-select a {
+  padding:0;/*opacity:.5;*/opacity:.4;
+}
+.footer .language-select a.active {
+  opacity:1;/*text-decoration:underline;*/
+}
+.footer .language-select span {
+  padding:10px;opacity:.5;
+}
