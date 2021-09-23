@@ -224,6 +224,9 @@
     if(!language)language=window.navigator.userLanguage||window.navigator.language;language=language.substring(0,2); // get browser preference
     if(language=='fr') {
       translator.lang('fr');  // translate page to french
+      //$(".language-select a").removeClass("active");
+      //$(".language-select a[data-id=fr]").addClass("active");
+      $(".language-select a").toggleClass("active");
     } else {
       language='en'; // set default to english
     }
