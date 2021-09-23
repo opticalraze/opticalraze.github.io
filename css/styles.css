@@ -612,6 +612,9 @@ h2,h3{
 .footer .language-select a {
   padding:0;/*opacity:.5;*/opacity:.4;
 }
+.footer .language-select a:hover {
+  opacity:.6;
+}
 .footer .language-select a.active {
   opacity:1;/*text-decoration:underline;*/
 }
