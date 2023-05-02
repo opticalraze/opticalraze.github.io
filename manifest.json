@@ -1,0 +1,11 @@
+{
+    "name": "Optical Raze",
+    "short_name": "Optical Raze",
+    "icons": [{
+        "src": "./icons/google-touch-icon.png",
+        "sizes": "512x512"
+    }],
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "display": "fullscreen"
+}
