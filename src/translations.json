@@ -22,6 +22,9 @@
             "simplyput": "Simply Put",
             "tagline3": "Find Problems and Eliminate Them!"
         },
+        "contact": {
+            "contactus": "Contact Us"
+        },
         "error": {
             "notfound": "Page Not Found"
         },
@@ -51,6 +54,9 @@
             "ourmission": "Notre mission",
             "simplyput": "Tout simplement",
             "tagline3": "Trouver des problèmes et les éliminer!"
+        },
+        "contact": {
+            "contactus": "Contactez-nous"
         },
         "error": {
             "notfound": "Page introuvable"

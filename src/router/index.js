@@ -14,6 +14,7 @@ const routes = [
     { path: '/portfolio', name: 'Portfolio', component: Portfolio },
     { path: '/projects', alias: '/projets', name: 'Projects', component: Projects },
     { path: '/project/:id', alias: '/projet/:id', name: 'Project', component: Project },
+    { path: '/project', redirect: '/projects' },
     { path: '/about', name: 'About', component: About },
     { path: '/contact', name: 'Contact', component: Contact },
     { path: '/resources', alias:'/ressources', name: 'Resources', component: Contact },
