@@ -1,0 +1,18 @@
+{
+    "monaco-editor-in-vuejs":
+    {
+        "title": "Monaco Editor in VueJS",
+        "description": "How to use Monaco Editor in VueJS",
+        "image": "https://user-images.githubusercontent.com/5047891/94183711-290c0780-fea3-11ea-90e3-c88ff9d21bd6.png",
+        "date": "Tuesday, May 2, 2023",
+        "content": ""
+    },
+    "monaco-editor-in-react":
+    {
+        "title": "Monaco Editor in React",
+        "description": "How to use Monaco Editor in React",
+        "image": "https://user-images.githubusercontent.com/5047891/94183711-290c0780-fea3-11ea-90e3-c88ff9d21bd6.png",
+        "date": "Tuesday, May 2, 2023",
+        "content": "" 
+    }
+}
