@@ -15,7 +15,7 @@ export default {
         <div class="container max-w-6xl mx-auto">
             <nav class="py-2 mx-8 border-b border-white border-opacity-10 flex items-center justify-between">
                 <div class="w-32 sm:hidden">
-                    <button @click="mobileNav = true"><img src="./assets/bars.svg" class="w-6 h-6"></button>
+                    <button @click="mobileNav = true"><img src="../assets/bars.svg" class="w-6 h-6"></button>
                 </div>
                 <div class="flex items-center">
                     <router-link to="/" class="hover:opacity-50 transition-all duration-150 sm:mr-8"><img src="../assets/logo.svg" class="h-8 w-8"></router-link>
@@ -31,7 +31,7 @@ export default {
             </nav>
         </div>
         <nav v-if="mobileNav" class="hidden fixed z-50 top-0 left-0 w-full h-screen bg-black bg-opacity-75 backdrop-blur-md text-center pt-24">
-            <button @click="mobileNav = false" class="absolute top-4 left-4"><img src="./assets/close.svg" class="h-6 w-6"></button>
+            <button @click="mobileNav = false" class="absolute top-4 left-4"><img src="../assets/close.svg" class="h-6 w-6"></button>
             <router-link to="/" class="block text-6xl font-bold mb-2">Home</router-link>
             <router-link to="/" class="block text-6xl font-bold mb-2">Services</router-link>
             <router-link to="/" class="block text-6xl font-bold mb-2">Portfolio</router-link>
