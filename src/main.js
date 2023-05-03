@@ -6,13 +6,23 @@ import router from './router'
 import './background.js'
 import messages from './translations.json'
 
+if (!localStorage.getItem('lang')) {
+    if (navigator.language.slice(0,2) === 'fr') {
+        localStorage.setItem('lang', 'fr')
+    }
+}
+
 const i18n = createI18n({
     
-    locale: 'fr', // set locale
+    locale: localStorage.getItem('lang'), // set locale
     fallbackLocale: 'en', // set fallback locale
     messages, // set locale messages
 
 })
+
+if (localStorage.getItem('lang') === 'fr') {
+    document.querySelector('html').lang = 'fr'
+}
 
 createApp(App)
 .use(router)

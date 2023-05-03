@@ -20,23 +20,23 @@ export default {
                 <div class="flex items-center">
                     <router-link to="/" class="hover:opacity-50 transition-all duration-150 sm:mr-8"><img src="../assets/logo.svg" class="h-8 w-8"></router-link>
                     <ul class="hidden sm:flex items-center">
-                        <li class="mx-2"><router-link :to="{ name: 'Home' }" class="text-sm hover:opacity-50 transition-all duration-150">Home</router-link></li>
-                        <li class="mx-2"><router-link :to="{ name: 'Services' }" class="text-sm hover:opacity-50 transition-all duration-150">Services</router-link></li>
-                        <li class="mx-2"><router-link :to="{ name: 'Portfolio' }" class="text-sm hover:opacity-50 transition-all duration-150">Portfolio</router-link></li>
-                        <li class="mx-2"><router-link :to="{ name: 'Projects' }" class="text-sm hover:opacity-50 transition-all duration-150">Projects</router-link></li>
-                        <li class="mx-2"><router-link :to="{ name: 'About' }" class="text-sm hover:opacity-50 transition-all duration-150">About</router-link></li>
+                        <li class="mx-2"><router-link :to="{ name: 'Home' }" class="text-sm hover:opacity-50 transition-all duration-150">{{ $t("nav.home") }}</router-link></li>
+                        <li class="mx-2"><router-link :to="{ name: 'Services' }" class="text-sm hover:opacity-50 transition-all duration-150">{{ $t("nav.services") }}</router-link></li>
+                        <li class="mx-2"><router-link :to="{ name: 'Portfolio' }" class="text-sm hover:opacity-50 transition-all duration-150">{{ $t("nav.portfolio") }}</router-link></li>
+                        <li class="mx-2"><router-link :to="{ name: 'Projects' }" class="text-sm hover:opacity-50 transition-all duration-150">{{ $t("nav.projects") }}</router-link></li>
+                        <li class="mx-2"><router-link :to="{ name: 'About' }" class="text-sm hover:opacity-50 transition-all duration-150">{{ $t("nav.about") }}</router-link></li>
                     </ul>
                 </div>
-                <router-link :to="{ name: 'Contact'}" class="border-2 border-white px-3 py-1 font-medium text-sm rounded-full text-white hover:bg-white hover:text-black transition-all duration-150">GET IN TOUCH</router-link>
+                <router-link :to="{ name: 'Contact'}" class="border-2 border-white px-3 py-1 font-medium text-sm rounded-full text-white hover:bg-white hover:text-black transition-all duration-150">{{ $t("nav.getintouch") }}</router-link>
             </nav>
         </div>
         <nav v-if="mobileNav" class="fixed z-50 top-0 left-0 w-full h-screen bg-black bg-opacity-75 backdrop-blur-md text-center pt-24">
             <button @click="mobileNav = false" class="absolute top-4 left-4"><img src="../assets/close.svg" class="h-6 w-6"></button>
-            <router-link to="/" class="block text-6xl font-bold mb-2">Home</router-link>
-            <router-link to="/" class="block text-6xl font-bold mb-2">Services</router-link>
-            <router-link to="/" class="block text-6xl font-bold mb-2">Portfolio</router-link>
-            <router-link to="/" class="block text-6xl font-bold mb-2">Projects</router-link>
-            <router-link to="/" class="block text-6xl font-bold mb-2">About</router-link>
+            <router-link to="/" class="block text-6xl font-bold mb-2">{{ $t("nav.home") }}</router-link>
+            <router-link to="/" class="block text-6xl font-bold mb-2">{{ $t("nav.services") }}</router-link>
+            <router-link to="/" class="block text-6xl font-bold mb-2">{{ $t("nav.portfolio") }}</router-link>
+            <router-link to="/" class="block text-6xl font-bold mb-2">{{ $t("nav.projects") }}</router-link>
+            <router-link to="/" class="block text-6xl font-bold mb-2">{{ $t("nav.about") }}</router-link>
         </nav>
     </header>
 </template>

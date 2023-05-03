@@ -4,8 +4,18 @@
             "heading": "We Build Websites",
             "subheading": "And Much More."
         },
+        "nav": {
+            "home": "Home",
+            "services": "Services",
+            "portfolio": "Portfolio",
+            "projects": "Projects",
+            "about": "About",
+            "getintouch": "GET IN TOUCH",
+            "contact": "Contact",
+            "resources": "Resources"
+        },
         "error": {
-            "pagenotfound": "Page Not Found"
+            "notfound": "Page Not Found"
         }
     },
     "fr": {
@@ -13,8 +23,18 @@
             "heading": "Nous construisons des sites Web",
             "subheading": "Et beaucoup plus."
         },
+        "nav": {
+            "home": "Accueil",
+            "services": "Services",
+            "portfolio": "Portfolio",
+            "projects": "Projets",
+            "about": "À propos",
+            "getintouch": "ENTRER EN CONTACT",
+            "contact": "Contact",
+            "resources": "Ressources"
+        },
         "error": {
-            "pagenotfound": "Page introuvable"
+            "notfound": "Page introuvable"
         }
     }
 }
