@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <header class="fixed top-0 left-0 w-full bg-black bg-opacity-50 backdrop-blur-md">
+    <header class="animate__animated animate__fadeIn fixed top-0 left-0 w-full bg-black bg-opacity-50 backdrop-blur-md">
         <div class="container max-w-6xl mx-auto">
             <nav class="py-2 mx-8 border-b border-white border-opacity-10 flex items-center justify-between">
                 <div class="w-32 flex sm:hidden">
