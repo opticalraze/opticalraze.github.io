@@ -1,0 +1,21 @@
+---
+title: Optical Raze
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+tagline: Check out "The Screw Ops"
+baseurl: https://opticalraze.github.io
+paginate: 1
+locale: en
+author:
+  name: ModernFuzzBall2
+  url: https://modernfuzzball2.github.io
+gems:
+- jekyll-paginate
+markdown: kramdown
+permalink: pretty
