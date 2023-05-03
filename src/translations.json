@@ -14,8 +14,19 @@
             "contact": "Contact",
             "resources": "Resources"
         },
+        "about": {
+            "aboutus": "About Us",
+            "tagline1": "We're a small software company based in Canada.",
+            "tagline2": "We build websites, apps, games and more.",
+            "ourmission": "Our Mission",
+            "simplyput": "Simply Put",
+            "tagline3": "Find Problems and Eliminate Them!"
+        },
         "error": {
             "notfound": "Page Not Found"
+        },
+        "links": {
+            "projects": "/projects"
         }
     },
     "fr": {
@@ -33,8 +44,19 @@
             "contact": "Contact",
             "resources": "Ressources"
         },
+        "about": {
+            "aboutus": "À propos de nous",
+            "tagline1": "Nous sommes une petite entreprise de logiciels basée au Canada.",
+            "tagline2": "Nous créons des sites web, des applications, des jeux et bien plus encore.",
+            "ourmission": "Notre mission",
+            "simplyput": "Tout simplement",
+            "tagline3": "Trouver des problèmes et les éliminer!"
+        },
         "error": {
             "notfound": "Page introuvable"
+        },
+        "links": {
+            "projects": "/projets"
         }
     }
 }
