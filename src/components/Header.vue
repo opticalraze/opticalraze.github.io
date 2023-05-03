@@ -30,7 +30,7 @@ export default {
                 <router-link :to="{ name: 'Contact'}" class="border-2 border-white px-3 py-1 font-medium text-sm rounded-full text-white hover:bg-white hover:text-black transition-all duration-150">GET IN TOUCH</router-link>
             </nav>
         </div>
-        <nav v-if="mobileNav" class="hidden fixed z-50 top-0 left-0 w-full h-screen bg-black bg-opacity-75 backdrop-blur-md text-center pt-24">
+        <nav v-if="mobileNav" class="fixed z-50 top-0 left-0 w-full h-screen bg-black bg-opacity-75 backdrop-blur-md text-center pt-24">
             <button @click="mobileNav = false" class="absolute top-4 left-4"><img src="../assets/close.svg" class="h-6 w-6"></button>
             <router-link to="/" class="block text-6xl font-bold mb-2">Home</router-link>
             <router-link to="/" class="block text-6xl font-bold mb-2">Services</router-link>

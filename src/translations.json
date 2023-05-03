@@ -3,12 +3,18 @@
         "home": {
             "heading": "We Build Websites",
             "subheading": "And Much More."
+        },
+        "error": {
+            "pagenotfound": "Page Not Found"
         }
     },
     "fr": {
         "home": {
             "heading": "Nous construisons des sites Web",
             "subheading": "Et beaucoup plus."
+        },
+        "error": {
+            "pagenotfound": "Page introuvable"
         }
     }
 }
