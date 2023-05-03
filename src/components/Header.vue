@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <header class="animate__animated animate__fadeIn fixed top-0 left-0 w-full bg-black bg-opacity-50 backdrop-blur-md">
+    <header class="animate__animated animate__fadeIn fixed z-40 top-0 left-0 w-full bg-black bg-opacity-50 backdrop-blur-md">
         <div class="container max-w-6xl mx-auto">
             <nav class="py-2 mx-8 border-b border-white border-opacity-10 flex items-center justify-between">
                 <div class="w-32 flex sm:hidden">
@@ -32,11 +32,13 @@ export default {
         </div>
         <nav v-if="mobileNav" class="fixed z-50 top-0 left-0 w-full h-screen bg-black bg-opacity-75 backdrop-blur-md text-center pt-24">
             <button @click="mobileNav = false" class="absolute top-3 left-8"><img src="../assets/close.svg" class="h-6 w-6"></button>
-            <router-link @click="mobileNav = false" to="/" class="block text-6xl font-bold mb-2">{{ $t("nav.home") }}</router-link>
-            <router-link @click="mobileNav = false" to="/services" class="block text-6xl font-bold mb-2">{{ $t("nav.services") }}</router-link>
-            <router-link @click="mobileNav = false" to="/portfolio" class="block text-6xl font-bold mb-2">{{ $t("nav.portfolio") }}</router-link>
-            <router-link @click="mobileNav = false" to="/projects" class="block text-6xl font-bold mb-2">{{ $t("nav.projects") }}</router-link>
-            <router-link @click="mobileNav = false" to="/about" class="block text-6xl font-bold mb-2">{{ $t("nav.about") }}</router-link>
+            <div class="animate__animated animate__zoomIn">
+                <router-link @click="mobileNav = false" to="/" class="block text-6xl font-bold mb-2">{{ $t("nav.home") }}</router-link>
+                <router-link @click="mobileNav = false" to="/services" class="block text-6xl font-bold mb-2">{{ $t("nav.services") }}</router-link>
+                <router-link @click="mobileNav = false" to="/portfolio" class="block text-6xl font-bold mb-2">{{ $t("nav.portfolio") }}</router-link>
+                <router-link @click="mobileNav = false" to="/projects" class="block text-6xl font-bold mb-2">{{ $t("nav.projects") }}</router-link>
+                <router-link @click="mobileNav = false" to="/about" class="block text-6xl font-bold mb-2">{{ $t("nav.about") }}</router-link>
+            </div>
         </nav>
     </header>
 </template>
