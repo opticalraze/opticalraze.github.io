@@ -27,9 +27,7 @@ export default {
                         <li class="mx-2"><router-link :to="{ name: 'About' }" class="text-sm hover:opacity-50 transition-all duration-150">{{ $t("nav.about") }}</router-link></li>
                     </ul>
                 </div>
-                <div class="w-32 text-right">
-                    <router-link :to="{ name: 'Contact'}" class="border-2 border-white px-3 py-1 font-medium text-sm rounded-full text-white hover:bg-white hover:text-black transition-all duration-150">{{ $t("nav.getintouch") }}</router-link>
-                </div>
+                <router-link :to="{ name: 'Contact'}" class="border-2 border-white px-3 py-1 font-medium text-sm rounded-full text-white hover:bg-white hover:text-black transition-all duration-150">{{ $t("nav.getintouch") }}</router-link>
             </nav>
         </div>
         <nav v-if="mobileNav" class="fixed z-50 top-0 left-0 w-full h-screen bg-black bg-opacity-75 backdrop-blur-md text-center pt-24">
