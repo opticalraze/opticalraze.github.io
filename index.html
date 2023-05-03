@@ -1,77 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <meta name="theme-color" content="#000000">
-    <link rel="icon" href="./icons/favicon.svg">
-    <link rel="mask-icon" href="./icons/mask-icon.svg" color="#000000">
-    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
-    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="mask-icon" href="/mask-icon.svg" color="#000000">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.json">
+
+    <meta name="description" content="We're a small software company based in Canada. We build websites, apps, games and more... Our mission is to find problems and eliminate them.">
 
     <title>Optical Raze</title>
-    <link href="./css/output.css?t=1" rel="stylesheet">
-</head>
-<body class="bg-black text-white">
-    <!--<div id="cursor"></div>-->
-    <header class="fixed top-0 left-0 w-full">
-        <div class="container max-w-6xl mx-auto">
-            <nav class="py-2 mx-8 border-b border-white border-opacity-10 flex items-center justify-between">
-                <div class="w-32 sm:hidden">
-                    <button id="openNav"><img src="./assets/bars.svg" class="w-6 h-6"></button>
-                </div>
-                <div class="flex items-center">
-                    <a href="/" class="hover:opacity-50 transition-all duration-150 sm:mr-8"><img src="./assets/logo.svg" class="h-8 w-8"></a>
-                    <ul class="hidden sm:flex items-center">
-                        <li class="mx-2"><a href="/" class="text-sm hover:opacity-50 transition-all duration-150">Home</a></li>
-                        <li class="mx-2"><a href="/services" class="text-sm hover:opacity-50 transition-all duration-150">Services</a></li>
-                        <li class="mx-2"><a href="/portfolio" class="text-sm hover:opacity-50 transition-all duration-150">Portfolio</a></li>
-                        <li class="mx-2"><a href="/projects" class="text-sm hover:opacity-50 transition-all duration-150">Projects</a></li>
-                        <li class="mx-2"><a href="/about" class="text-sm hover:opacity-50 transition-all duration-150">About</a></li>
-                    </ul>
-                </div>
-                <div class="w-32 text-right">
-                    <a href="/contact" class="border-2 border-white px-3 py-1 font-medium text-sm rounded-full text-white hover:bg-white hover:text-black transition-all duration-150">GET IN TOUCH</a>
-                </div>
-            </nav>
-        </div>
-        <nav id="mobileNav" class="hidden fixed z-50 top-0 left-0 w-full h-screen bg-black bg-opacity-75 backdrop-blur-md text-center pt-24">
-            <button id="closeNav" class="absolute top-4 left-4"><img src="./assets/close.svg" class="h-6 w-6"></button>
-            <a href="/" class="block text-6xl font-bold mb-2 hover:bg-yellow-400">Home</a>
-            <a href="/" class="block text-6xl font-bold mb-2">Services</a>
-            <a href="/" class="block text-6xl font-bold mb-2">Portfolio</a>
-            <a href="/" class="block text-6xl font-bold mb-2">Projects</a>
-            <a href="/" class="block text-6xl font-bold mb-2">About</a>
-        </nav>
-    </header>
-    <main>
-        <div class="container max-w-5xl mx-auto">
-            <section class="px-8 h-screen w-full flex items-center justify-center">
-                <div id="target" class="text-center sm:text-left">
-                    <h1 class="text-6xl lg:text-8xl font-black text-black text-outline-white">We Build Websites</h1>
-                    <h2 class="text-4xl lg:text-6xl font-black text-white">And Much More.</h2>
-                </div>
-            </section>
-        </div>
-    </main>
-    <footer>
-        <div class="container max-w-6xl mx-auto flex items-center justify-between px-8">
-            <p class="py-8">© Copyright 2023, Optical Raze Inc.</p>
-            <nav>
-                <a href="/" class="mr-2 text-sm hover:opacity-50 transition-all duration-150">Home</a>
-                <a href="/resources" class="mr-2 text-sm hover:opacity-50 transition-all duration-150">Resources</a>
-                <a href="/services" class="mr-2 text-sm hover:opacity-50 transition-all duration-150">Services</a>
-                <a href="/portfolio" class="mr-2 text-sm hover:opacity-50 transition-all duration-150">Portfolio</a>
-                <a href="/projects" class="mr-2 text-sm hover:opacity-50 transition-all duration-150">Projects</a>
-                <a href="/about" class="mr-2 text-sm hover:opacity-50 transition-all duration-150">About</a>
-                <a href="/contact" class="mr-2 text-sm hover:opacity-50 transition-all duration-150">Contact</a>
-            </nav>
-        </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.min.js"></script>
-    <script src="./scripts/background.js"></script>
-    <script src="./scripts/mobile.js"></script>
-</body>
+  </head>
+  <body class="bg-black text-white">
+    <div id="app" v-cloak></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
