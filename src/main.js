@@ -10,6 +10,8 @@ import messages from './translations.json'
 if (!localStorage.getItem('lang')) {
     if (navigator.language.slice(0,2) === 'fr') {
         localStorage.setItem('lang', 'fr')
+    } else {
+        localStorage.setItem('lang', 'en')
     }
 }
 
