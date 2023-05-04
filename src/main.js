@@ -4,6 +4,7 @@ import './style.css'
 import 'animate.css';
 import App from './App.vue'
 import router from './router'
+import VueGtag from "vue-gtag" 
 import './background.js'
 import messages from './translations.json'
 
@@ -30,4 +31,7 @@ if (localStorage.getItem('lang') === 'fr') {
 createApp(App)
 .use(router)
 .use(i18n)
+.use(VueGtag, {
+    config: { id: "G-90DJXQHB95" }
+})
 .mount('#app')
