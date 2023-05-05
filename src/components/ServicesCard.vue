@@ -3,10 +3,7 @@ import { computed, ref } from 'vue';
 import { useMouseInElement } from '@vueuse/core';
 
 defineProps({
-    link: String,
-    image: String,
-    header: String,
-    description: String
+    link: String
 });
 
 const target = ref(null);
@@ -39,10 +36,6 @@ const cardTransform = computed(() => {
         }" 
         class="text-center bg-white bg-opacity-5 border border-white border-opacity-20 rounded-xl text-white text-opacity-80 hover:text-opacity-100"
     >
-        <img :src="`../src/assets/${image}.svg`" alt="" class="aspect-square object-contain object-center p-8">
-        <div class="p-8 pt-0">
-            <h2 class="text-3xl font-black">{{ header }}</h2>
-            <p>{{ description }}</p>
-        </div>
+        <slot />
     </router-link>
 </template>
