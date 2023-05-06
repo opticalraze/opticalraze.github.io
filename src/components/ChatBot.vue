@@ -52,6 +52,11 @@ const chatBotForm = ref(null)
 </style>
 
 <script>
+
+import chatbotCompute from '../scripts/chatbot';
+
+chatbotCompute('hello');
+
 export default {
     data() {
         return {
