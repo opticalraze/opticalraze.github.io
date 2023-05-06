@@ -7,24 +7,33 @@ import PerspectiveCard from '../components/PerspectiveCard.vue';
             <h1 class="text-6xl font-black text-white text-center mb-8">Services</h1>
             <div class="lg:grid grid-cols-3 gap-8">
                 <PerspectiveCard link="/services/marketing">
-                    <img src="../assets/billboard.svg" alt="" class="aspect-square object-contain object-center p-8">
-                    <div class="p-8 pt-0">
-                        <h2 class="text-3xl font-black">Marketing</h2>
-                        <p>We can take care of your advertising using online and traditional methods.</p>
+                    <div class="p-8">
+                        <h2 class="text-2xl font-black mb-4">Marketing</h2>
+                        <p class="text-sm">We can take care of your advertising using online and traditional methods.</p>
                     </div>
                 </PerspectiveCard>
                 <PerspectiveCard link="/services/web-development">
-                    <img src="../assets/code.svg" alt="" class="aspect-square object-contain object-center p-8">
-                    <div class="p-8 pt-0">
-                        <h2 class="text-3xl font-black">Web Development</h2>
-                        <p>We build custom static and dynamic websites using VueJS and Laravel.</p>
+                    <div class="p-8">
+                        <h2 class="text-2xl font-black mb-4">Web Development</h2>
+                        <p class="text-sm">We build custom static and dynamic websites using VueJS and Laravel.</p>
                     </div>
                 </PerspectiveCard>
                 <PerspectiveCard link="/services/branding">
-                    <img src="../assets/megaphone.svg" alt="" class="aspect-square object-contain object-center p-8">
-                    <div class="p-8 pt-0">
-                        <h2 class="text-3xl font-black">Branding</h2>
-                        <p>We build brand images with color schemes logo designs and more.</p>
+                    <div class="p-8">
+                        <h2 class="text-2xl font-black mb-4">Branding</h2>
+                        <p class="text-sm">We build brand images with color schemes logo designs and more.</p>
+                    </div>
+                </PerspectiveCard>
+                <PerspectiveCard link="/services/branding">
+                    <div class="p-8">
+                        <h2 class="text-2xl font-black mb-4">SEO</h2>
+                        <p class="text-sm">We will use tools to increase your search engine ranking.</p>
+                    </div>
+                </PerspectiveCard>
+                <PerspectiveCard link="/services/branding">
+                    <div class="p-8">
+                        <h2 class="text-2xl font-black mb-4">App Development</h2>
+                        <p class="text-sm">We can create apps for computers and mobile devices</p>
                     </div>
                 </PerspectiveCard>
             </div>
