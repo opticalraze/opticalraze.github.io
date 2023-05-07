@@ -5,8 +5,6 @@ import 'animate.css';
 import App from './App.vue'
 import router from './router'
 import VueGtag from "vue-gtag" 
-import { MotionPlugin } from '@vueuse/motion'
-import { GesturePlugin } from '@vueuse/gesture'
 import './background.js'
 import messages from './translations.json'
 
@@ -36,6 +34,4 @@ createApp(App)
 .use(VueGtag, {
     config: { id: "G-90DJXQHB95" }
 })
-.use(MotionPlugin)
-.use(GesturePlugin)
 .mount('#app')
