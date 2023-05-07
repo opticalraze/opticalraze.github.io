@@ -25,6 +25,13 @@
         "contact": {
             "contactus": "Contact Us"
         },
+        "projects": {
+            "projects": "Projects",
+            "spigotplugins": "Spigot Plugins",
+            "webapps": "Web Apps",
+            "webgames": "Web Games",
+            "checkout": "Check out our "
+        },
         "error": {
             "notfound": "Page Not Found"
         },
@@ -57,6 +64,13 @@
         },
         "contact": {
             "contactus": "Contactez-nous"
+        },
+        "projects": {
+            "projects": "Projets",
+            "spigotplugins": "Plugins Spigot",
+            "webapps": "Applis Web",
+            "webgames": "Jeux en Ligne",
+            "checkout": "Découvrez nos "
         },
         "error": {
             "notfound": "Page introuvable"
