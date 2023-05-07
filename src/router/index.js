@@ -7,7 +7,7 @@ import Project from '../views/Project.vue';
 import About from '../views/About.vue';
 import Contact from '../views/Contact.vue';
 import Resources from '../views/Resources.vue';
-import NotFound from '../views/404.vue';
+import NotFound from '../views/NotFound.vue';
 
 const routes = [
     {   path: '/', 
