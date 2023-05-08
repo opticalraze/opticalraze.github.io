@@ -34,7 +34,7 @@ const cardTransform = computed(() => {
             transform: cardTransform,
             transition: 'transform 0.25s ease-out'
         }" 
-        class="text-center bg-white bg-opacity-5 border border-white border-opacity-20 rounded-xl text-white text-opacity-80 hover:text-opacity-100"
+        class="block mb-8 text-center bg-white bg-opacity-5 border border-white border-opacity-20 rounded-xl text-white text-opacity-80 hover:text-opacity-100"
     >
         <slot />
     </router-link>
