@@ -18,7 +18,7 @@ let mobileNav = ref(false);
         <div class="container max-w-6xl mx-auto">
             <nav class="py-2 mx-8 border-b border-white border-opacity-10 flex items-center justify-between">
                 <div class="w-48 flex sm:hidden">
-                    <button @click="mobileNav = true">
+                    <button @click="mobileNav = true" aria-label="menu">
                         <BarsIcon class="w-6 h-6 text-white" />
                     </button>
                 </div>
