@@ -14,7 +14,7 @@
         </div>
     </section>
     <section>
-        <div class="grid grid-cols-5 gap-4 max-w-2xl mx-auto">
+        <div class="grid grid-cols-5 gap-4 max-w-2xl mx-auto my-16">
             <a href="https://www.instagram.com/opticalraze/" target="_blank" class="flex flex-col justify-center items-center hover:brightness-50 transition-all duration-300">
                 <img src="../assets/instagram.svg" alt="Instagram" class="h-12 w-12 mb-2">
                 <h6 class="text-xl font-black">Instagram</h6>
