@@ -14,7 +14,7 @@
         </div>
     </section>
     <section>
-        <div class="flex gap-8 justify-center max-w-2xl mx-auto my-16">
+        <div class="flex gap-8 justify-center max-w-2xl mx-auto my-16 px-8">
             <a href="https://www.instagram.com/opticalraze/" target="_blank" class="hover:brightness-50 transition-all duration-300">
                 <img src="../assets/instagram.svg" alt="Instagram" class="h-12 w-12">
             </a>
@@ -32,6 +32,9 @@
             </a>
             <a href="https://www.reddit.com/r/opticalraze/" target="_blank" class="hover:brightness-50 transition-all duration-300">
                 <img src="../assets/reddit.svg" alt="Reddit" class="h-12 w-12">
+            </a>
+            <a href="https://discord.gg/hpvbpuN3As" target="_blank" class="hover:brightness-50 transition-all duration-300">
+                <img src="../assets/discord.svg" alt="Discord" class="h-12 w-12">
             </a>
             <a href="https://github.com/opticalraze" target="_blank" class="hover:brightness-50 transition-all duration-300">
                 <img src="../assets/github.svg" alt="GitHub" class="h-12 w-12">
