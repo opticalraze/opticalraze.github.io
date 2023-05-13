@@ -14,7 +14,8 @@
         </div>
     </section>
     <section>
-        <div class="flex gap-8 justify-center max-w-2xl mx-auto my-16 px-8">
+        <h4 class="text-3xl font-black text-center mb-4 mt-16">Let's Get Social</h4>
+        <div class="flex gap-8 justify-center max-w-2xl mx-auto mb-16 px-8">
             <a href="https://www.instagram.com/opticalraze/" target="_blank" class="hover:brightness-50 transition-all duration-300">
                 <img src="../assets/instagram.svg" alt="Instagram" class="h-12 w-12">
             </a>
@@ -38,6 +39,9 @@
             </a>
             <a href="https://dribbble.com/opticalraze" target="_blank" class="hover:brightness-50 transition-all duration-300">
                 <img src="../assets/dribbble.svg" alt="Dribbble" class="h-12 w-12">
+            </a>
+            <a href="https://opticalraze.itch.io" target="_blank" class="hover:brightness-50 transition-all duration-300">
+                <img src="../assets/itch-io.svg" alt="Itch.io" class="h-12 w-12">
             </a>
             <a href="https://github.com/opticalraze" target="_blank" class="hover:brightness-50 transition-all duration-300">
                 <img src="../assets/github.svg" alt="GitHub" class="h-12 w-12">
