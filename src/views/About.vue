@@ -14,7 +14,7 @@
         </div>
     </section>
     <section>
-        <h4 class="text-3xl font-black text-center mb-4 mt-16">Let's Get Social</h4>
+        <h4 class="text-3xl font-black text-center mb-4 mt-16">{{ $t("about.social") }}</h4>
         <div class="flex gap-8 justify-center max-w-2xl mx-auto mb-16 px-8">
             <a href="https://www.instagram.com/opticalraze/" target="_blank" class="hover:brightness-50 transition-all duration-300">
                 <img src="../assets/instagram.svg" alt="Instagram" class="h-12 w-12">
