@@ -43,6 +43,9 @@
             <a href="https://opticalraze.itch.io" target="_blank" class="hover:brightness-50 transition-all duration-300">
                 <img src="../assets/itch-io.svg" alt="Itch.io" class="h-12 w-12">
             </a>
+            <a href="https://www.snapchat.com/add/opticalraze" target="_blank" class="hover:brightness-50 transition-all duration-300">
+                <img src="../assets/snapchat.svg" alt="Snapchat" class="h-12 w-12">
+            </a>
             <a href="https://github.com/opticalraze" target="_blank" class="hover:brightness-50 transition-all duration-300">
                 <img src="../assets/github.svg" alt="GitHub" class="h-12 w-12">
             </a>
