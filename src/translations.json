@@ -12,7 +12,8 @@
             "about": "About",
             "getintouch": "GET IN TOUCH",
             "contact": "Contact",
-            "resources": "Resources"
+            "resources": "Resources",
+            "faqs": "FAQs"
         },
         "about": {
             "aboutus": "About Us",
@@ -21,7 +22,10 @@
             "ourmission": "Our Mission",
             "simplyput": "Simply Put",
             "tagline3": "Find Problems and Eliminate Them!",
-            "social": "Let's Get Social"
+            "social": "Let's Get Social",
+            "mark": "Our Mark",
+            "proud": "We're proud of our work.",
+            "plaque": "We place a plaque at the bottom of every website we develop."
         },
         "contact": {
             "contactus": "Contact Us"
@@ -53,7 +57,8 @@
             "about": "À propos",
             "getintouch": "ENTRER EN CONTACT",
             "contact": "Contact",
-            "resources": "Ressources"
+            "resources": "Ressources",
+            "faqs": "FAQs"
         },
         "about": {
             "aboutus": "À propos de nous",
@@ -62,7 +67,10 @@
             "ourmission": "Notre mission",
             "simplyput": "Tout simplement",
             "tagline3": "Trouver des problèmes et les éliminer!",
-            "social": "Soyons Sociaux"
+            "social": "Soyons Sociaux",
+            "mark": "Notre Marque",
+            "proud": "Nous sommes fiers de notre travail.",
+            "plaque": "Nous plaçons une plaque au bas de chaque site web que nous développons."
         },
         "contact": {
             "contactus": "Contactez-nous"
