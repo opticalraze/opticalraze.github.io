@@ -11,12 +11,19 @@
                     <h4 class="font-thin">Travel Agency</h4>
                 </a>
                 -->
+                <!--
                 <a href="https://opticalraze.com/petcare/" target="_blank">
                     <img src="../assets/portfolio/petcare.webp" alt="" class="mb-4">
                     <h3 class="text-2xl font-black">PetCare</h3>
                     <h4 class="font-thin">Pet Services</h4>
                 </a>
-                <a href="https://nolanpilon.github.io" target="_blank">
+                -->
+                <a href="https://budsrecords.ca" target="_blank" class="hover:brightness-75 transition-all duration-300">
+                    <img src="../assets/portfolio/budsrecords.webp" alt="budsrecords.ca" class="mb-4">
+                    <h3 class="text-2xl font-black">Bud's Records</h3>
+                    <h4 class="font-thin">Record Store</h4>
+                </a>
+                <a href="https://nolanpilon.github.io" target="_blank" class="hover:brightness-75 transition-all duration-300">
                     <img src="../assets/portfolio/nolanpilon.webp" alt="nolanpilon.github.io" class="mb-4">
                     <h3 class="text-2xl font-black">Nolan's Portfolio</h3>
                     <h4 class="font-thin">Game Programmer</h4>
